@@ -60,12 +60,11 @@ function add(id){
     if (Number(btn.innerHTML)==a)
     {
         if((Number(btn.innerHTML)+ 20 ) >40){ 
-            btn.innerHTML="";
+            btn.innerHTML="*";
         }
         else{
             y=Number(btn.innerHTML) + 20;
            btn.innerHTML=y;
-
         }
         a++;
         if(a==41)
@@ -178,5 +177,3 @@ function onstart(){
     placingnumbers();
     startstopwatch();
 }
-
-
